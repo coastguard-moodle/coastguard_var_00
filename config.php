@@ -30,17 +30,6 @@ $THEME->name = 'coastguard_var_00';
 $THEME->sheets = [];
 $THEME->editor_sheets = [];
 $THEME->editor_scss = ['editor'];
-
-/*########################################################################
-##################### ADD ADDITIONAL CSS - MH  ###########################
-##########################################################################*/
-
-$THEME->sheets = array('legacy');
-
-/*########################################################################
-##################### END ADDITIONAL CSS - MH  ###########################
-##########################################################################*/
-
 $THEME->usefallback = true;
 $THEME->scss = function($theme) {
     return theme_coastguard_var_00_get_main_scss_content($theme);
@@ -49,9 +38,6 @@ $THEME->scss = function($theme) {
 /*########################################################################
 ######    ADD ADDITIONAL BLOCK REGIONS TO THE LAYOUTS BELOW - MH  ########
 ##########################################################################*/
-
-//add addtional css sheets here - MH
-$THEME->sheets = array('legacy');
 
 $THEME->layouts = [
     // Most backwards compatible layout without the blocks.

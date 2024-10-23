@@ -59,14 +59,10 @@ if ($ADMIN->fulltree) {
     
     // These are the built in presets.
     $choices['default.scss'] = 'default.scss';
-    $choices['unitec_std.scss'] = 'unitec_std.scss';
     $choices['var_00.scss'] = 'var_00.scss';
     $choices['var_01.scss'] = 'var_01.scss';
     $choices['var_02.scss'] = 'var_02.scss';
     $choices['var_03.scss'] = 'var_03.scss';
-    $choices['police.scss'] = 'police.scss';
-    $choices['hawkins.scss'] = 'hawkins.scss';
-    $choices['swift.scss'] = 'swift.scss';
     $choices['plain.scss'] = 'plain.scss';
     
     /*###############################################################

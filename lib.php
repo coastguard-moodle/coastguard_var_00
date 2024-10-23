@@ -116,8 +116,6 @@ function theme_coastguard_var_00_get_main_scss_content($theme) {
     
     if ($filename == 'default.scss') {
         $scss .= file_get_contents($CFG->dirroot . '/theme/coastguard_var_00/scss/preset/default.scss');
-    } else if ($filename == 'unitec_std.scss') {
-        $scss .= file_get_contents($CFG->dirroot . '/theme/coastguard_var_00/scss/preset/unitec_std.scss');
     } else if ($filename == 'var_00.scss') {
         $scss .= file_get_contents($CFG->dirroot . '/theme/coastguard_var_00/scss/preset/var_00.scss');
     } else if ($filename == 'var_01.scss') {
@@ -126,12 +124,6 @@ function theme_coastguard_var_00_get_main_scss_content($theme) {
         $scss .= file_get_contents($CFG->dirroot . '/theme/coastguard_var_00/scss/preset/var_02.scss');
     } else if ($filename == 'var_03.scss') {
         $scss .= file_get_contents($CFG->dirroot . '/theme/coastguard_var_00/scss/preset/var_03.scss');
-    } else if ($filename == 'police.scss') {
-        $scss .= file_get_contents($CFG->dirroot . '/theme/coastguard_var_00/scss/preset/police.scss');
-    } else if ($filename == 'hawkins.scss') {
-        $scss .= file_get_contents($CFG->dirroot . '/theme/coastguard_var_00/scss/preset/hawkins.scss');
-    } else if ($filename == 'swift.scss') {
-        $scss .= file_get_contents($CFG->dirroot . '/theme/coastguard_var_00/scss/preset/swift.scss');
     } else if ($filename == 'plain.scss') {
         $scss .= file_get_contents($CFG->dirroot . '/theme/coastguard_var_00/scss/preset/plain.scss');
     } else if ($filename && ($presetfile = $fs->get_file($context->id, 'theme_coastguard_var_00', 'preset', 0, '/', $filename))) {
